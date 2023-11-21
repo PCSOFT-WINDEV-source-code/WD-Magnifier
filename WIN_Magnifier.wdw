@@ -1,0 +1,429 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Magnifier
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Magnifier
+ identifier : 0x286e081e00caad38
+ internal_properties : CAAAAAgAAABHAEppqWSlELHBLEfPJIjtk4wEW1yuk4fCA4EgUdDyLFuhodyge07r3F8H2G+BG+hpx88BRGQX1gEISV5nd45mn/wmWiYjkgP8qgtELCdEhxXJ59rIZa9URA+Q0sxat0RZzG5GdaBvQNLyvkx2IAaUYibA6SesBXPH7UW74nZU6deYC6H/VOFjqejVg0B/qLAoOhMUCQKk8RV+jZACb1Yaz9H2kkh+IAFXYooEmgxgYlmDf6D1Vtzlwa471kZ/ey+nO2sORxjOyrwP8sgJj5IPsb+eEy//LQV2ZXj+JM5Kdt7DPKYuqGP7xZcJIkK/p09zoQLDZna91mREBGF7ZnOu0g1j81rJ/BypFPlp5d/PWF/AgTwM8ONRbYfhPz/kUfQTJ2GZGdepWDG398yYfxDuJcDcRR47eJ+Kg0zqV363iWM2pb+mFaKOS+y79TB1mUeaXT6iI3FsrsrqoX4+d/UzmkQa5IjMvM61YAEF+4HQ+M5N08pnKnkkQEMRraTL4pfK66uCtQLXPQKa758sCL6KZTehGz7e3LwYH9ojiwZ8cC9iot+ItA576tmp2l883xFNRaTktZLX/kDgeS4WEy6PMBmUDdiykEJcoAsSYKOEKqh3nrucnstotCht6YKG1EQQtYOukZnGrrGuq/2HWDJGbDMMfCWD6oF9TPsHGBPNZjq2dbxY4AawuICj8TKQIvk4AsWsdzels5TNBdwa/Pnh5BLw+M+Edz2CVtWRrYH+lR8XGJArOvud6apxxZkjxKnKVQNnrkg+muqyvlBfEWDmuCi5n1gD
+ properties :
+  width : 334
+  height : 310
+ controls :
+  -
+    name : BT_ESC
+    identifier : 0x286e081e00ccad38
+    internal_properties : CAAAAAgAAAAVzhQvIrGxdcXqyTjFKHM6bOJmMyVwcgUefGynGG6X0X/SQiG/hl/nMCr1BhKlC2SLf7UGcdvYiSe+S6YC2K35pENG+Uzdp/OdNKd6KzybfPhAYTUtbe97Kc7mhdAMODy7+DWHtpz/vhtV9pd/j4s4ocvWpcqJnchASNmQQ802TdZ1nKJj0sjre4hg/WF2Sp/B1P8hZE3WqRm7lI8t1D06XZuQ1Gpg7fIYSVpZLu1JZL86CXPvImEDBEPWzmQIy/ynxQMdK+e/TJ4L0yjLwn+6j7j5oHN2ES1f+QI7Da2CqmST5KYcUlSagaDqIFTDMVAO7F7Y8Z+9hDsmem+cyFg3hD4Q3KrUbMFmIqqrZvOVbhf1rFOwXLoN0aZTnSkmpGOuuGQFyCb4UBYMssTsSvtEn9NAGBc38bui2JRPrdzMg722GoywG73rKzZF6gkg2PAHeppUL/aLDB6xtcOjjIGLC3i87xVgs4V+lSgjf+EfoKrI+rYw0790HHsJw1OFHjKueT42SuSercno/u1RJdzUSiDMZ7z/6CHFXdOYmuh+w0v1iQ7Rf5UBJMjOGRIIEPY8Pjha8IC1Bx8rJfMOpFyMke/vPMxIZhezdD+LteDms0RWcq458ET90A/qMprWVBt0IdSVmfDpiqU1C9tFxmqLRFOBd8eRHErCkCfIUARO3lFp0HX2+hwd
+    properties :
+     y : 314
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Closes the window by pressing ESC
+         Close
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_MAGNIFIER
+    identifier : 0x286e081e00cbad38
+    internal_properties : CAAAAAgAAADRBrMsTJ8ysVmb3z1fKH1POZu48E2HMGgsHCLzUAXmMTs+jr+AxRA3hr8E3pq/MPy/dueoiOrmOEZZDcgDF2GsqNhTrWtBc9wa/37J+bmfbPgB9FkSTO0n3nq39B32mvmBvMGI8aBp7w7PbRL18E9hoKtMgEsPG2MQB+Q6DBQYlr7ISqZOO0JE0Zil8iFJCEEYyaPrKyZPNUEEVdcsXzEvuXQUsgi9ex5CLBmbdVBTKDzh21COpt8Dn/DGqTprT9GgZe2PFp+DozkpK4GynR3JHCF2BzEK2wr/PuXvn4R//a9n0H/NIBi043ID2bSQMPQ8OF9bTZG2RwX9vDqhP5SZ2LGZsHJlgiYWrngS98m4ZAe/phhc93uvApmwGLR0Z9XrrSwvECP6THQ3aPXeE4R1cqfu/DnJsO2xRVpv7BJUdM7VnKjN0m9FFsCYzA3fFHwncebZbhaPCOBuoBwUbAYWoh7XYmgxU6SFm/FZ2hWjf9g+jzslhx731GKLuhvD1hkznwfuf4ff4Ip3YNtyH5CmWjocaFdwXhkWXs2H2khJg6tzfAtvOVkuxn9Yq553dZHe3LuOCOp/EycPV+LLnoMFsHjqbNMR0sNwkHAe3b6I1J9p4TpLcefEoMKSw6I5lJ/qI9EoVcCWYVd7RgTcrDbMTQ==
+    properties :
+     x : 28
+     y : 26
+     width : 172
+     height : 172
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x25670aef0a9e79d8
+  internal_properties : CAAAAAgAAAAoagsXE0xucBO2e0ia94vQrRWSYO17FDggaUaeRKNmgp14OlvHidYQADmCe7JzSJ/iKr5/Bl/WV71r91Q/sDYDdLqwsTKTRz9u6D0iJop7i+W+LJQFAWVumkmWJDkEpFSI/3Isl72sizXgIGa6ceDcVwxLKYotV/mMqpwrFnyD72otbjY33rrJB0BU1QDpjXP/hy2K72XPUh586oOx/dcjilW8iumXoyb12Pn4c9m1zBiqwt5h1BaxnU3jtI9jdwvFT4lDQEH//KnAMHelnxzoooufws/wvKpA
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADTy2M67X4un5sSbiz6mw8KrC6EQC2mDbzMMdexEbcgDTVDM1QQi+Nc4tW2hxyItXihFv3NU+Ur/MfI4vKfPADTHBeS1pkKfL5L9rHcT2hLEyd3MgD1gr8WAn+hxz9m
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAC58dzeWsUKkJiLuPZPWih4gb8Mz2+VTnqvXS2xzDqm4Fz5XGy1kGO1xDOWyL/a9vtcIxitn5Mxdy1YLzSc489VRN3+MPW9ne1u4v0J8vSkg7Ym6MBwX5lqdCI+L4y4RIaUC93ZmfHfML0zETGYqPEFQyJneZlKCu7AKl0b3/QO
+     code : |1-
+      
+      // Execution in Vista
+      gbVista is boolean = (Val(SysWindowsVersion(sysVersionNumber)) >= 6)
+      
+      // Zoom factor
+      gnZoom is int = 2
+      
+      // Makes the window "invisible" to the screen shots performed with dCopyBlt.
+      API(USER32, "SetWindowLongA", Handle(), -20, 0x00080000)
+      API(USER32, "SetLayeredWindowAttributes", Handle(), LightMagenta, 255, 0x00000001)	
+      
+      gnDC 		is system int
+      gnHwnd		is system int
+      gnSize		is int = CoordinateEditorToScreen(174)
+      
+      // By using the GDI API, create an elliptic area that corresponds to the circle of the magnifier.
+      gnRgn 		is system int = API(GDI32,"CreateEllipticRgn", 0, 0, gnSize, gnSize)
+      
+      IF gbVista = False THEN
+      	
+      	// Starts drawing in the image control named IMG_MAGNIFIER
+      	
+      	gnDC = dStartDrawing(IMG_MAGNIFIER)
+      	gnHwnd = Handle(IMG_MAGNIFIER)
+      	
+      	// Applies the elliptical area to the image control
+      	// The drawing will be enabled in this circular area only.
+      	// Whenever a drawing function is used, only the circular area will be updated in the image control.
+      	API(GDI32,"SelectObject", gnDC, gnRgn)
+      END
+      
+      // Hides the mouse cursor: the mouse will not be visible when the window is hovered by the cursor
+      CursorDisplay(False)
+      
+      LOCAL
+      	// Retrieve the current coordinates of the mouse cursor on the screen
+      	
+      	nX is int = LoWord(CursorPos(cpScreen))
+      	nY is int = HiWord(CursorPos(cpScreen))
+      	
+      // Positions the window to the mouse coordinates
+      MyWindow..X = nX - (IMG_MAGNIFIER..X + IMG_MAGNIFIER..Width / 2)
+      MyWindow..Y = nY - (IMG_MAGNIFIER..Y + IMG_MAGNIFIER..Height / 2)	
+      
+      IF gbVista THEN
+      	
+      	// Initializes the magnifier of Vista
+      	InitializeVistaMagnifier()	
+      END
+   -
+     code : |1-
+      
+      // Positions the window in the foreground ("TOPMOST")
+      WinStatus(WIN_Magnifier, AboveAll)
+      
+      // First display
+      Update()
+      
+      WIN_Magnifier..Visible = True
+      
+      // The source image must be re-displayed
+      IMG_MAGNIFIER = IMG_MAGNIFIER..InitialValue
+      
+      // Triggers a timer that will position the window to the mouse coordinates
+      // Allows the cursor to be followed by the window
+      WindowPosition()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     internal_properties : CAAAAAgAAADJq5wXj5wpxtGa11gsJzYfEQs+nAZX1wtZEOumeGVJmWvG+JhV8lVxkkk/RmxSO9zB/KhkBnqRRUXMzwC9E+9TupKzJkYbk4WvwalXew0xgaBKMwqvvoUU39f899wMvC+Oyi7E4y1oDMIUNW4=
+     code : |1-
+      
+      IF gbVista THEN
+      	
+      	// Unloads the magnifier
+      	API(MAGNIFICATION, "MagUninitialize")
+      END
+      
+      // Redisplays the cursor
+      CursorDisplay(True)
+      
+      // Destroys the circular area
+      API(GDI32, "DeleteObject", gnRgn)
+      
+      // Frees the DC of the image control
+      dEndDrawing(IMG_MAGNIFIER)
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+   -
+     code : |1-
+      
+     type : 66048
+   -
+     type : 66049
+   -
+     code : |1-
+      
+      // Increases the zoom value
+      gnZoom ++
+      gnZoom = Min(8, gnZoom)
+      
+      IF gbVista THEN
+      	
+      	// Prepare the zoom
+      	arrZoom is array of 3 by 3 4-byte real
+      	arrZoom[1][1] = gnZoom
+      	arrZoom[2][2] = gnZoom
+      	arrZoom[3][3] = 1
+      	
+      	// Initialize the zoom
+      	API(MAGNIFICATION, "MagSetWindowTransform", gnHwnd, &arrZoom)
+      END
+      
+      // Refreshes the magnifier
+      Update()
+     type : 66050
+   -
+     code : |1+
+      
+      // Reduces the zoom value
+      gnZoom --
+      gnZoom = Max(2, gnZoom)
+      
+      IF gbVista THEN
+      	
+      	// Prepare the zoom
+      	arrZoom is array of 3 by 3 4-byte real
+      	arrZoom[1][1] = gnZoom
+      	arrZoom[2][2] = gnZoom
+      	arrZoom[3][3] = 1
+      	
+      	// Initialize the zoom
+      	API(MAGNIFICATION, "MagSetWindowTransform", gnHwnd, &arrZoom)
+      END
+      
+      // Refreshes the magnifier
+      Update()
+     type : 66053
+   -
+     code : |1-
+      
+      // Reduces the zoom value
+      gnZoom += _EVE.wParam / Abs(_EVE.wParam)
+      gnZoom = Max(2, gnZoom)
+      
+      IF gbVista THEN
+      	
+      	// Prepare the zoom
+      	arrZoom is array of 3 by 3 4-byte real
+      	arrZoom[1][1] = gnZoom
+      	arrZoom[2][2] = gnZoom
+      	arrZoom[3][3] = 1
+      	
+      	// Initialize the zoom
+      	API(MAGNIFICATION, "MagSetWindowTransform", gnHwnd, &arrZoom)
+      END
+      
+      // Refreshes the magnifier
+      Update()
+     type : 66058
+   -
+     code : |1-
+      
+      // Refreshes the magnifier
+      Update()
+     type : 65539
+  procedures :
+   -
+     name : WindowPosition
+     procedure_id : 1760353429292363064
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //WindowPosition ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE WindowPosition()
+      
+      EndTimer(1000)
+      
+      nX is int
+      nY is int
+      nOldX is int
+      nOldY is int	
+      
+      // Retrieves the mouse coordinates on the screen
+      nX = LoWord(CursorPos(cpScreen))
+      nY = HiWord(CursorPos(cpScreen))
+      
+      // Retrieves the current coordinates of the window on the screen
+      nOldX = MyWindow..X
+      nOldY = MyWindow..Y
+      
+      // The window must be moved if the mouse coordinates have changed
+      IF (nOldX <> nX - (IMG_MAGNIFIER..X + IMG_MAGNIFIER..Width / 2)) _OR_ (nOldY <> nY - (IMG_MAGNIFIER..Y + IMG_MAGNIFIER..Height / 2)) THEN
+      	
+      	// Moves the window
+      	WinSize(WIN_Magnifier, (nX - (IMG_MAGNIFIER..X + IMG_MAGNIFIER..Width / 2)), (nY - (IMG_MAGNIFIER..Y + IMG_MAGNIFIER..Height / 2)), MyWindow..Width, MyWindow..Height)
+      	
+      END
+      
+      // Positions the window in the foreground ("TOPMOST")
+      WinStatus(WIN_Magnifier, AboveAll)	
+      Timer(WindowPosition, 1, 1000)
+     type : 458752
+   -
+     name : Update
+     procedure_id : 1760353429292428600
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //Update ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE Update()
+      
+      // Whenever the window is moved, perform a screen shot of the area occupied by the image control in the image control
+      
+      nX, nY are int
+      nXCopy, nYCopy are int
+      nLCopy, nHCopy are int = (IMG_MAGNIFIER..Width, IMG_MAGNIFIER..Height)
+      
+      nXCopy 	= (MyWindow..X + IMG_MAGNIFIER..X + nLCopy / 2) - ((nLCopy / 2) / gnZoom)
+      nYCopy 	= (MyWindow..Y + IMG_MAGNIFIER..Y + nHCopy / 2) - ((nHCopy / 2) / gnZoom)
+      
+      
+      IF gbVista THEN
+      	
+      	// Retrieves the mouse coordinates on the screen
+      	nX = LoWord(CursorPos(cpScreen))
+      	nY = HiWord(CursorPos(cpScreen))
+      	
+      	RECT is Structure
+      		nLeft, nTop, nRight, nBottom are int
+      	END
+      	
+      	// Use the magnifier
+      	stRectCopy is RECT
+      	
+      	stRectCopy:nLeft 			= nXCopy
+      	stRectCopy:nRight 			= nLCopy
+      	stRectCopy:nTop 				= nYCopy
+      	stRectCopy:nBottom 				= nHCopy
+      	
+      	// Retrieves the image
+      	IF In64bitMode() THEN
+      		API(MAGNIFICATION, "MagSetWindowSource", gnHwnd, &stRectCopy)
+      	ELSE
+      		API(MAGNIFICATION, "MagSetWindowSource", gnHwnd, stRectCopy)
+      	END
+      	
+      	// Update
+      	API(USER32, "InvalidateRect", gnHwnd, Null, True)
+      	
+      ELSE	
+      	
+      	// Copies (X,Y)-(X+85,Y+85) to (0,0)-(170,170)
+      	// => the copied area is zoomed by 2
+      	dCopyBlt(copyScreen, IMG_MAGNIFIER, copySrcCopy, nXCopy, nYCopy, nHCopy / gnZoom, nLCopy / gnZoom, 0, 0, nHCopy, nLCopy)	
+      END
+      
+     type : 458752
+   -
+     name : InitializeVistaMagnifier
+     internal_properties : CAAAAAgAAABQdU3YLn6vsiwcs9cKGoW+TaR5tI7YhRdWDPeHj+wSnCLOBtb69FALKkPehygXfQ9NiorguoDTWsQAvGBA0nzAg75TeVaYsmK9Amqf++CZX74s0pGu0JfQPxKqY/yQlM35fP51mV8j+BnCjcHKvSanomzXj4YuAYK4r0va3frCv4DmcR5sqONiSdjvKIUyaCwPXJkhr3L5/4LjO4PcIj5IaOzdqg==
+     procedure_id : 1760353429292494136
+     type_code : 14
+     code : |1+
+      // Summary: Initializes the magnifier of Vista
+      // Syntax:
+      // InitializeVistaMagnifier ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE InitializeVistaMagnifier()
+      
+      // Loads the DLL of the magnifier of Windows Vista
+      LoadDLL(MAGNIFICATION)
+      
+      // Initializes the magnifier
+      API(MAGNIFICATION, "MagInitialize")	
+      
+      // Creates a window to receives the images from the magnifier
+      gnHwnd = API(USER32, "CreateWindowExA", 0, "Magnifier", ProjectInfo(piProjectName), ...
+      0x40000000 + 0x08000000, 0, 0, IMG_MAGNIFIER..Width, ...
+      IMG_MAGNIFIER..Height, Handle(IMG_MAGNIFIER), 0, SysInstance(), 0)
+      
+      // Retrieves the DC of the window
+      gnDC = API(USER32, "GetWindowDC", gnHwnd)
+      
+      // Applies the elliptical section to the window for receiving the images from the magnifier
+      // The drawing will be enabled in this circular area only.
+      // Whenever the image is updated by the magnifier, only the circular section 
+      // will be updated.
+      API(USER32, "SetWindowRgn", gnHwnd, gnRgn, True)
+      
+      // Prepare the zoom
+      arrZoom is array of 3 by 3 4-byte real
+      arrZoom[1][1] = gnZoom
+      arrZoom[2][2] = gnZoom
+      arrZoom[3][3] = 1
+      
+      // Initialize the zoom
+      API(MAGNIFICATION, "MagSetWindowTransform", gnHwnd, &arrZoom)
+      
+      // Displays the window that was created
+      API(USER32, "ShowWindow", gnHwnd, 5)	
+      API(USER32, "SetWindowPos", gnHwnd, -1, 0, 0, 0, 0, 0x0001 + 0x0040)	
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x12a716e20000a274
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Loupe.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

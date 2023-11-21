@@ -1,0 +1,114 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Magnifier
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : This project manages the display of a magnifier
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : CAAAAAgAAAD9KZv5s5EgrEu8vvNMDWgkZKHuT693HCiooseQyCRjsdAqEHWqNWwQAhSkavJ+r9mWqPuJmEwltcxoF64o3XBzVdWjembpVMY8A/SvTb/LT4Czo/5XlHB5un54toT4qwVoOqy4i3n6D8lwQQ0r5uVQXKeVyG6nqdO3B/+8tqDrbH0j1Eoroinh1E/gXE3LlppDxoFnxYULGwrJD/Gap/jD1lVBL0xREkHfuWTZFFapvZdlXdtXBeQ5e3Ul8HhgnOou3umhDP75czeiW8Xyy7gS4pwrP9G/Zi23hdoG3MNlcEJLf26HTlYnGTknEI6XGNA/EKM8DMXSl+nIHSQ/KONFugb+12vtFqF3PLIdQ3+of0tW6v6xvija1pVcdIxBrRe12ib+KsIG1BOydSWxV8ysG6a5AScJxA1+XMrk7sn7SMHW/us1+gPSVpLEXQXGEHyKsG+juA5RmmJAZODiQ7mcYbvm0c10AanzJ/oRUXe1DHJDIrjDftMyJF+DmMdMggnIWJ+IBuo+XvnYvxekvfu71dr8Iyeg8mY/yxyxhmmdsE0bsT1zSHVEORr0EI2G5bE3vQmmArGoDxDs0q4ltVaaX1ctJdvo+HtgiCQGlQ+WolJx7c1dv0j5y78KgJzDQoO4SxhAddyjRcpj1VHXGC58u1mI+Kl5fjAjQkBIl3Swa0dHUj/D+ZLhWAF8h0S7FbNmhq6HtScqWJCdn9PnvHtTDVP+y3rOHfVJiczkZD2QtBQ1JCnCyF8488VYjqQURCBjD1/v/2ABo7CmBOIx1Ikh9IfKQA3FcVt1g1Zfc80dYHajoEFnf4WfOuu65Q9U3wEWsnJsFoNsIRdkHCBXWkGm+1qauMnXeNLP0XmOMOe508jYjPa2usuDlim0AS0tDXwmqbuSdsAwX/o8P3DSNPx3aZg9dGIxHIYprFUZULr7/PEw3ePa0gcES7nMVZreEzOK35TPBSmV3MzgQY4z3y8wv5nFNHz11uFXQP+cyC8mTdUmsr5WoSwLTCNDGRRf3bBD5K0k9AqPS4dlBaGf19ne4UEkxtDUOjPfjFQqdhVWovrfd5NAtuUqa2l7EDckrNA6T5D1kK6dKRscQ39a+MPSwLYSQr2lvSydOb+EItlLoO4FhZP7juDdaWGg+pZ4dxbJWJ4IHUwUvXzKbVJmvlxltH0NwiKtNWy6XbJYFkiul3psovz7ElXDFWSO7mSrfOxbJfztfV27N5AOFUpWdvVSdI7dENi923SG11bJtByuqcs8q2/38PC0pVG+fNHav7GWaN/GkcoJJUzTYD3k64TBCc1WvfHZ60jZnr7i9/Lb7CPOJBW+/eTqa8r2GbFk6f+avQsQwpob0q8OZtT6Yk0c/DH1E9jrFfyckPLHLllYEdFb0GiW4ELJY9gZ02YWmstD++fXjwpp62G/FrxcxO0+hRMhvZolMd4VSkN2eyzhj+6a4bG9nMX+yuetPd4hzKhcIUHwPdYPie631HIzvBCBlxWbj+j7mz9daMUUQe2aIkCcOjb+O+4SmJ8nYEhsx/gS9y0MTwmg65biU2Dvlgx55kS1rw84HL8SHgM1QXgT+dmr0ODPTrxBUKOLs8lXJSAvgHRWWxMzbpptMa93Y6KpelPe0WNxmBvwjhtnHRBzQEXrO/ygvW3FL0g/3RtnGG0yGM15JebpB/LVmbsMRLnIqVN67mgHfCMhNPjOs1MqmOh0Gqn3Od7Cpul5OphtE2mbZE5NLtiqIhenOHDUNer0h2sxvWzJ3w7hoGSs5O9KfTFQjssGfyilMI6GlmmcdvfM6OVaKR6G6C4SdgMg7VI6DZ+4lF1Nk+e8RJ4SAK5FOvBZ11SV/JeAyWvsI4+N/ufjEA/fhuetRdOqFuTfA+Q2JNZHr6e1VEqpsLJjKVSw9NEmPWaaJXN5U/G0Ek47n12QhpJoJCKrYCaa6//XXwZbK9g8a9k=
+ configurations :
+  -
+    name : Windows 32
+    internal_properties : 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
+    configuration_id : 7461721352330462011
+    type : 1
+    description : Magnifier created by WINDEV
+    generation_directory : .\Exe\Windows 32
+    generation_name : WD Magnifier.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\SXP12441.ico
+    language : 2
+    telemetry :
+     status : disabled
+  -
+    name : Windows 64
+    internal_properties : CAAAAAgAAAAdorWl6BHEndYpH+ZknQHZFBCescIppQ95aNJk9t4pXCgJH8ZpwYuEhS6TQQ9CdFwjuZKUj3RS8MraLL51eiIM5zv61hJX1ic1UtxISfYeF1PAYQMyE++2IiTeVSWRaR07PjScXgzqq4bwZGF0Wi/TJmvYOWaDnlTpv/dspu4+duoWsGp3cYs321Oq2dVHEaTj3KZTGlzMATc8TL+RhpphSA3JsjdXBDsw+29AeCDsSVGjh/p6rGMrnMtdi6BOBWozIHbRVF0BHK4lvZi+y2Rlcq0wSOGT47HQY1o2aQwrsNV/usSvC3uN5u5xXEpz0QBhRJwBqEhCE0Dp1Sn3MpmcQ7t82Jzig9d5cLDWz5Z4CpxxaJBnuVQgztcQ3M3dxnrAn9nBo4zhPc0Wc4kBJ4RoHxEj5ZowyxayhEEG2hlfz9C6t7R5QTSQEJgeW2uADjwzMelFcJSLgEGjRE5IPQ0DXmR/DDfo7qNxxN0/Pluh8K3AmbD18ND2hwO4HUZaWPqb5uj1ZIe6A6smpjLWSh3hYQGVcaNno4zAnCpKM/N/WG7zKi6/KsMmcYpo9yJh2Dd5ujwRFT5pamgS9LThCL4ePJNLn9gbfexGu4dE4MlazC+FVaoBnJQ1G3t3tJHnQo2b9DcFUFxzYABIDpk4Fbco3jCKZDS7OGok+kVtitdNRbY18a4Ymexsqm37LqE2LLR2JFQH8COtnabHQJEFsGfnSFg87kSsjYi9sPbGNysVs/LMKnukn1szwzKWi6p2aSlHpS2rK6D0m5JY8g2BFYL3OExviIRw6hzMh7H/IhenFaEJ6b+j8KfbHnWChBS3+GLO1Nifu27VaqW23p3FzrKSul5KOjVte2dZrnbBsMQrtR9Rj3KbnkzC4FPeRCw71l50+5WHrw3xQWmD2nRsfMqRX3SsmXfDNTQERCa723l4p1889xnv0UJ96JO3wwigniwtkY25fXNhqcWpHXi+9mfeOm388VwtaCeAlXA5yZkMS9+8g49XZJRiM7Lpeg9rJ/0iNlST8dXLfqgXZE6Mgb6jHtH3BElEZSKC4YXVSDhq5+TT7+dpW8XN+PLgXzeQ2D33dg8dStTJYyoPcRZFRz/BVcWC5ohgZk89wLQO7fsPS2pog0oA8CKfuBl1CK6PWUIn40+U08N8sqUgRhWhbssjLtwUBUvpS0yjZ78YVsR+0RUjLQZrptpUuhcqZHwmWiqocW/NdeK6zsCUWtSbVfUyqM765doV4S2YnGuW1R+9avsVSwb2j9XDQIeVQchyHsFZF8Tu97UhqyfOOUK3qq6LIpK3nWTcY3aLg+neGt+CwlcwKFbfDjHwek1mHOoK7nqPAP2zjiCrG90dsHKt668w81Li8K3jrll60OCMjEwqOxO1Vt3BY05GH5VCyXFXHkZZuHzfDrU/LyvUyZq0gstHF4v6XZ96SSan+3BsAXJRxmGhtSENFj0bYmG/FwyFbuGCb+Z4aGBwJwPMO/tKlBs1glkxm6s5KcehLRXVNcPcjgt24EycaMyvc8ypktD48bIuVf4oCPbbVRTwNgIlRDpcu3a5Ai1II04kwa+brgdjzC2n2IH8CA84FscLZ06Y8rS+Ny+nyj1cgNGcdNDfCJkOTsGqUK0tNzTwC6kbJ5U4MBOc7mMiw26jQLPY9lTIzyxHdB1z9ZpUxg5K41ikvjC+4oXU0Rdp5VypMOkLR84mdxDbuSv6s7Cv6QCssUfxT2Hd3CwBTZ+cFqYAEo8PkeIB
+    configuration_id : 4925240471938562379
+    type : 1
+    generation_directory : .\Exe\Windows 64
+    generation_name : WD Magnifier.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     autoincrement_version : false
+    icon_filename : .\SXP12441.ico
+    language : 2
+    telemetry :
+     status : disabled
+    64bits : true
+ elements :
+  identifier : 0x4ac4839b000daa86
+  elements :
+   -
+     name : WIN_Magnifier
+     identifier : 0x42a7171d00008959
+     internal_properties : CAAAAAgAAADfuzfr2IWtvgncnaIwry7hwYDIELt8Xr9Ozz/ftE7ERMRMkX0c6HVzZtDKNv7yjgLKSg==
+     physical_name : .\WIN_Magnifier.wdw
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ wd_style_sheet : ".\\WD Magnifier.sty\r\n.\\WDMagnifier.sty"
+ code_elements :
+  internal_properties : CAAAAAgAAADge8H0okxt0TXrASAwRlpTdA+RaXAycsiT/I4lXGCgFvDzNnWDsLEYmnRAJECBObOh/OrpOnsTuoWBGquE6RfR/Oxi
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAB13KMevi+0slXQkNILzZgcY06pETQcBnh/k7PpGpIMXmTTgA7XyH/LiuGgHBlGkCUoafCDFWf5zcP+geTSs0mKG8Ibc+iAZAh9T1rqQ7NRLNE/iS8DSoi5x4OfDKGTbas7oGrsUFy8vVJp6N6K2dDQsKyB01+NUgyE4GPdDrjC
+     code : |1-
+      
+      CONSTANT
+      	USER32 			= "user32"
+      	GDI32  			= "gdi32"
+      	MAGNIFICATION		= "magnification.dll"
+      END
+      
+      // If Windows is in 64-bit mode but if the 64-bit version of the executable has not been started
+      // Unable to continue (Windows Vista and earlier only)
+      IF (SysWindowsVersion(sysProcessor) = 64 _AND_ NOT In64bitMode()) _AND_ Val(SysWindowsVersion(sysVersionNumber)) <= 6 THEN
+      	EndProgram("This program cannot operate on a 64-bit system.", "Start the 64-bit version of this program.", True)
+      END
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Windows 32
+     identifier : 0x4ac4839b0011ab60
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : Windows 64
+     identifier : 0x4e7c5b64005b0229
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
